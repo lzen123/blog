@@ -9,16 +9,15 @@ onMounted(() => {
   // 按目录对文章进行分组
   posts.forEach((post) => {
     const pathParts = post.url.split("/");
-    const category = pathParts[2] || "未分类";
-
+    const category = pathParts[1] || "未分类";
+    console.log(pathParts, "pathParts");
     if (!groupedPosts.value[category]) {
       groupedPosts.value[category] = [];
       tags.value.push(category); // Add category to tags array
     }
     groupedPosts.value[category].push(post);
   });
-
-  console.log(groupedPosts.value);
+  console.log(groupedPosts.value, "posts");
 });
 
 function scrollToCategory(category) {
@@ -60,7 +59,8 @@ function scrollToCategory(category) {
         <li v-for="post in categoryPosts" :key="post.url" class="post-item">
           <article class="post-card">
             <h3 class="post-title">
-              <a :href="post.url">{{ post.title }}</a>
+              <!-- 设置相对源文件路径srcDir：posts -->
+              <a :href="'.' + post.url">{{ post.title }}</a>
             </h3>
             <div class="post-meta">
               <time :datetime="post.date.iso" class="post-date">{{

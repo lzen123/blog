@@ -5,7 +5,7 @@ title: 归档
 ---
 
 <script setup>
-  import Archive from './.vitepress/theme/Archive.vue'
+  import Archive from '../.vitepress/theme/Archive.vue'
 </script>
 
 <Archive :class="$style.button" />
