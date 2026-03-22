@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Blog&Notes",
   description: "Just playing around",
   appearance: false, // 禁用外观切换功能，隐藏深色模式切换按钮
+  base: "/blog/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -23,8 +24,6 @@ export default defineConfig({
       // }
     ],
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "github", link: "" }],
   },
 });
