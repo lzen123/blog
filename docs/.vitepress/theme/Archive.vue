@@ -154,7 +154,8 @@ function scrollToCategory(category) {
 }
 
 .post-item {
-  padding: 19px 0;
+  padding: 20px 0;
+  padding-top: 0px;
   border-radius: 8px;
   transition: background-color 0.3s ease;
   margin-bottom: 8px;
@@ -238,13 +239,16 @@ function scrollToCategory(category) {
 }
 
 /* 响应式设计 - 平板尺寸 */
-@media (max-width: 1024px) {
+@media (max-width: 1460px) {
   .archive-page {
     padding: 32px 20px;
   }
+  .category-section {
+    margin-top: 38px;
+  }
 
   .category-title {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .post-title {
@@ -273,7 +277,7 @@ function scrollToCategory(category) {
   }
 
   .category-section {
-    margin-top: 40px;
+    margin-top: 28px;
   }
 
   .category-title {
@@ -317,12 +321,15 @@ function scrollToCategory(category) {
   }
 
   .category-section {
-    margin-top: 32px;
+    margin-top: 20px;
+  }
+  .post-item {
+    margin-bottom: 0;
   }
 
   .category-title {
     font-size: 26px;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
   }
 
   .post-count {
