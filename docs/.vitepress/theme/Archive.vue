@@ -278,6 +278,7 @@ function scrollToCategory(category) {
 
   .category-title {
     font-size: 32px;
+    margin-bottom: 18px;
   }
 
   .post-count {
@@ -321,6 +322,7 @@ function scrollToCategory(category) {
 
   .category-title {
     font-size: 26px;
+    margin-bottom: 8px;
   }
 
   .post-count {

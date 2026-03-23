@@ -1,4 +1,5 @@
 node_modules
+.pnpm-store
 .DS_Store
 **/cache
 **/dist
@@ -9,10 +10,6 @@ dist-ssr
 
 # Editor directories and files
 .idea
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
 *.local
 
 

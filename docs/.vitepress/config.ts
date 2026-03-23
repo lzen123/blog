@@ -7,23 +7,15 @@ export default defineConfig({
   appearance: false, // 禁用外观切换功能，隐藏深色模式切换按钮
   base: "/blog/",
   srcDir: "posts",
+  head: [["link", { rel: "icon", href: "/blog/favIcon.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
-      // { text: "Examples", link: "/markdown-examples" },
-      { text: "笔记", link: "/archive" },
+      { text: "家", link: "/" },
+      { text: "collection", link: "/archive" },
     ],
 
-    sidebar: [
-      // {
-      //   text: 'Examples',
-      //   items: [
-      //     { text: 'Markdown Examples', link: '/markdown-examples' },
-      //     { text: 'Runtime API Examples', link: '/api-examples' }
-      //   ]
-      // }
-    ],
+    sidebar: [],
 
     socialLinks: [{ icon: "github", link: "" }],
   },

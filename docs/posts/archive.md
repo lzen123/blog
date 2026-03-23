@@ -1,7 +1,7 @@
 ---
 outline: deep
 layout: page
-title: 归档
+title: collection
 ---
 
 <script setup>
