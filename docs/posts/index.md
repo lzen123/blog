@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 深度文章
-      # link: /markdown-examples
+      link: /archive.html
     - theme: alt
       text: "@zl"
       link: /api-examples
