@@ -248,7 +248,7 @@ function scrollToCategory(category) {
   }
 
   .category-title {
-    font-size: 38px;
+    font-size: 32px;
   }
 
   .post-title {

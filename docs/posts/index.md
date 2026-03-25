@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "思考与实践"
-  text: "探索技术与生活的边界"
-  tagline: 在代码与文字中寻找世界的真实本质，分享知识、经验和思考
+  text: "探索技术与生活的本质"
+  tagline: 在代码与文字中寻找世界的真实边界，分享知识、经验和思考
   actions:
     - theme: brand
       text: 深度文章
