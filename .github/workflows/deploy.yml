@@ -45,7 +45,7 @@ jobs:
       - name: Install dependencies
         # 或 pnpm install / yarn install / bun install
         run: |
-          pnpm config set registry https://npmmirror.com
+          pnpm config set registry https://npmjs.org
           pnpm install
       - name: Build with VitePress
         run: pnpm docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
