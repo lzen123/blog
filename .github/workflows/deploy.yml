@@ -43,10 +43,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        # 或 pnpm install / yarn install / bun install
-        run: |
-          pnpm config set registry https://npmjs.org
-          pnpm install
+        run: pnpm install # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: pnpm docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
       - name: Upload artifact
