@@ -2,14 +2,14 @@
 title: 一个基于React 19 + TypeScript + Ant Design 的可配置动态表单组件
 date: 2021-09-01
 outline: deep
-excerpt: 支持通过 JSON Schema 驱动渲，染具备表单项分组（Group）和任意深度嵌套（Nested Group）能力。
+excerpt: 支持通过 JSON Schema 驱动渲染，具备表单项分组（Group）和任意深度嵌套（Nested Group）能力。
 ---
 
 # 一个基于React 19 + TypeScript + Ant Design 的可配置动态表单组件
 
 ## 概述
 
-组件（`DynamicForm`）支持通过 JSON Schema 驱动渲，染具备表单项分组（Group）和任意深度嵌套（Nested Group）能力。
+组件（`DynamicForm`）支持通过 JSON Schema 驱动渲染，具备表单项分组（Group）和任意深度嵌套（Nested Group）能力。
 
 **核心设计原则**：配置驱动、递归自相似性、关注点分离、**不重复造轮子**。
 

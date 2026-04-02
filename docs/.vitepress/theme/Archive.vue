@@ -17,7 +17,7 @@ onMounted(() => {
     }
     groupedPosts.value[category].push(post);
   });
-  console.log(groupedPosts.value, "posts");
+  console.log(posts, groupedPosts.value, "posts");
 });
 
 function scrollToCategory(category) {
@@ -70,7 +70,12 @@ function scrollToCategory(category) {
             <p class="post-excerpt" v-if="post.excerpt">
               {{ post.excerpt }}
             </p>
-            <a href="#" class="read-more">阅读更多</a>
+            <a
+              v-if="post.title && post.excerpt"
+              :href="'.' + post.url"
+              class="read-more"
+              >阅读更多</a
+            >
           </article>
         </li>
       </ul>
@@ -166,10 +171,7 @@ function scrollToCategory(category) {
   padding: 19px;
   border-radius: 8px;
   background: linear-gradient(145deg, #f9f9f9, #ffffff);
-  box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.02),
-    0 1px 3px rgba(0, 0, 0, 0.02);
-  transition: box-shadow 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
 }
 
 .post-title {
