@@ -241,7 +241,7 @@ function scrollToCategory(category) {
 }
 
 /* 响应式设计 - 平板尺寸 */
-@media (max-width: 1460px) {
+@media (max-width: 3860px) {
   .archive-page {
     padding: 32px 20px;
   }
