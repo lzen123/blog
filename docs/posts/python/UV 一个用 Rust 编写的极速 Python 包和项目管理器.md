@@ -2,7 +2,6 @@
 outline: deep
 title: UV 一个用Rust编写的极速Python包和项目管理器
 date: 2026-3-23
-excerpt: "uv run main.py脚本执行解析"
 ---
 
 # UV 一个用 Rust 编写的极速 Python 包和项目管理器

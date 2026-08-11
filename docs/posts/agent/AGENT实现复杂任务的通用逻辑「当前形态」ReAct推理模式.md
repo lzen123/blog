@@ -2,7 +2,6 @@
 outline: deep
 title: AGENT实现复杂任务的通用逻辑「当前形态」ReAct推理模式
 date: 2026-3-23
-excerpt: "ReAct & CoT & Plan/Execute 推理模式"
 ---
 
 # AGENT实现复杂任务的通用逻辑「当前形态」-ReAct推理模式

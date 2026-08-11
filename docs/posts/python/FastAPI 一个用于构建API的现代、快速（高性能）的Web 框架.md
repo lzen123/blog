@@ -2,7 +2,6 @@
 outline: deep
 title: FastAPI一个用于构建API的现代、快速（高性能）的Web框架
 date: 2026-3-23
-excerpt: 运行一个FastAPI服务的两种方式
 ---
 
 # FastAPI一个用于构建API的现代、快速（高性能）的Web框架

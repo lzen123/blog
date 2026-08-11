@@ -1,7 +1,7 @@
 ---
+outline: deep
 title: Agent 的 Skill 是怎么被"想起来并用起来"的？
 date: 2026-08-07
-tags: [AI Agent, Skill, 架构设计]
 ---
 
 # Agent 的 Skill 是怎么被"想起来并用起来"的？

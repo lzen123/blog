@@ -20,7 +20,9 @@ export default createContentLoader("*/(*).md", {
       .map(({ url, frontmatter, excerpt }) => ({
         title: frontmatter.title,
         url,
-        excerpt: frontmatter.excerpt || excerpt,
+        // 仅使用 frontmatter 中显式声明的 excerpt；
+        // 未声明时不回退到自动生成的 excerpt（否则会把整篇 HTML 当摘要）
+        excerpt: frontmatter.excerpt,
         date: formatDate(frontmatter.date),
       }))
       .sort((a, b) => b.date.time - a.date.time);

@@ -2,7 +2,6 @@
 outline: deep
 title: python中的异步执行协程Coroutine以及并发asyncio.gather
 date: 2026-3-23
-excerpt: "协程是一种可以暂停和恢复执行的函数"
 ---
 
 # python中的异步执行协程 Coroutine， 并发asyncio.gather

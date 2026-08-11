@@ -1,8 +1,7 @@
 ---
 outline: deep
-title: 跨域&CORS
-date: 2026-08-10
-tags: [跨域, CORS, 代理, 同源策略]
+title: "跨域&CORS"
+date: 2026-08-01
 ---
 
 # 跨域&CORS
